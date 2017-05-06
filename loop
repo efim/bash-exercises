@@ -1,0 +1,12 @@
+#!/bin/bash
+for i in {1..99..2}
+do
+   echo "$i"
+done
+
+# !To make executable do $chmod u+x
+
+# could be used with any iterable
+# *.html
+# or $ls or $othercommand
+# or just several values written separated by space
