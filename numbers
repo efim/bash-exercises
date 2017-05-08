@@ -1,0 +1,11 @@
+#!/bin/bash
+
+read num1
+read num2
+echo "$(($num1+$num2))"
+echo "$(($num1-$num2))"
+echo "$(($num1*$num2))"
+echo "$(($num1/$num2))"
+
+# https://unix.stackexchange.com/questions/93029/how-can-i-add-subtract-etc-two-numbers-with-bash
+# in bash use $((_)) to evaluate numerical computations
